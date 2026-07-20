@@ -15,7 +15,7 @@ const ProductDetail = () => {
 
   return (
     <>
-      <div className="container w-350 mx-auto  px-4 md:px-8 bg-gray-800 min-h-screen rounded-2xl shadow-2xl my-8 p-6 md:p-12 border-gray-800">
+      <div className="container mx-auto px-4 md:px-8 bg-gray-900 min-h-screen rounded-2xl shadow-2xl my-8 p-6 md:p-12 border border-gray-800">
         <Link to={"/"}>
           <button className="flex items-center text-gray-400 hover:text-orange-400 transition duration-150 mb-12 font-semibold cursor-pointer">
             <ChevronLeft className="h-5 w-5" />
